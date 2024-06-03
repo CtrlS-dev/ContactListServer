@@ -1,0 +1,223 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+}
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body, h1, p{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+body{
+  height: 100vh;
+  padding: 0 1rem;
+  background-color: #e8e8e8;
+  transition: all 0.3s ease-in-out;
+}
+
+#main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div, .register-div{
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 6px;
+  width: 80%;
+  height: 60%;
+  max-width: 30rem;
+  align-items: center;
+}
+
+#form-login, #form-sign-in{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+  padding: 1rem;
+  transition: all 2s ease-in-out;
+}
+
+.input-email-login,.input-password-login, .email-sign-in, .password-sign-in, .confirm-password-sign-in{
+  border: 2px solid rgba(139, 139, 139, 0.247);
+  height: 2.8rem;
+  width: 70%;
+  text-indent: 0.4rem;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.4s ease-in-out;
+}
+.wrong-input{
+  height: 2.8rem;
+  width: 70%;
+  text-indent: 0.4rem;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.4s ease-in-out;
+  outline: 2px solid rgb(170, 1, 1);
+}
+
+#title-login, #title-signup{
+  color: #1e3a8a;
+  cursor: default;
+  font-size: 3rem;
+}
+
+.input-email-login:hover,.input-password-login:hover{
+  border: 2px solid rgba(1, 89, 161, 0.336);
+}
+.input-email-login:focus,.input-password-login:focus{
+  border: 2px solid rgba(1, 89, 161, 0.747);
+  background-color: #1e3b8a2d;
+}
+
+.error-email, .error-password, .error-email-signin, .error-password-signin, .error-confirm-password{
+  font-size: 0.8rem;
+  color: rgb(216, 5, 5);
+}
+
+button:enabled{
+  width: 70%;
+  background-color: black;
+  color: white;
+  height: 4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+  font-size: 1rem;
+}
+ 
+button:disabled{
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.466);
+  color: white;
+  height: 2rem;
+  border-radius: 6px;
+  cursor: no-drop;
+  transition: all 0.35s ease-in-out;
+}
+
+#btn-login:enabled:hover{
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+#btn-login:enabled:active{
+  background-color: #1e3b8ab4;
+}
+
+#no-account{
+  cursor: default;
+}
+#no-account span{
+  
+  text-decoration: underline;
+  color: #294181;
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+#no-account span:hover{
+  text-decoration: underline;
+  color: #094aff;
+  cursor: pointer;
+}
+
+.none-div{
+  display: none;
+}
+
+.register-div{
+  display: flex;
+}
+
+
+.correct{
+  outline: 2px solid rgb(1, 104, 1);
+}
+
+.wrong{
+  outline: 2px solid rgb(170, 1, 1);
+}

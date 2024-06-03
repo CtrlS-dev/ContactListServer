@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>CONTACT LIST</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="main">
+
+  <!-- LOG IN -->
+  <div id="login-div" class="login-div">
+    <form id="form-login">
+      <h1 id="title-login">LOG IN</h1>
+      <input type="text" placeholder="Enter your email..." class="input-email-login">
+      <p class="error-email"></p>
+      <input type="password" placeholder="Enter your password..." class="input-password-login">
+      <p class="error-password"></p>
+      <button id="btn-login" disabled>SIGN IN</button>
+      <h3 id="no-account">Don't have an account? <span id="text-sign-up">Sign Up</span></h3>
+    </form>
+  </div>
+
+  <!-- SIGN IN -->
+  <div id="div-signin" class="none-div">
+    <form id="form-sign-in">
+      <h1 id="title-signup">SIGN UP</h1>
+      <input type="text" placeholder="Enter your email..." class="email-sign-in">
+      <p class="error-email-signin"></p>
+      <input disabled type="password" placeholder="Enter your password..." class="password-sign-in">
+      <p class="error-password-signin"></p>
+      <input disabled type="password" placeholder="Confirm your password..." class="confirm-password-sign-in">
+      <p class="error-confirm-password"></p>
+      <button disabled id="btn-signin">SIGN UP</button>
+      <h3 id="no-account">Have an account? <span id="text-log-in">Log In</span></h3>
+    </form>
+</div>
+</div>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
