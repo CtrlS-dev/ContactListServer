@@ -3,23 +3,8 @@
     {
       "id": "b701",
       "username": "shaddai@gmail.com",
-      "password": "Shaddai18"
+      "password": "Contraseña123456"
     },
-    {
-      "id": "0e48",
-      "username": "samira@gmail.com",
-      "password": "Shaddai18"
-    },
-    {
-      "id": "ef56",
-      "username": "samirita@gmaill.com",
-      "password": "Shaddai18"
-    },
-    {
-      "id": "d1b6",
-      "username": "samira-regalado@gmail.com",
-      "password": "123456789Aa"
-    }
   ],
   "contact": [
     {
@@ -28,17 +13,5 @@
       "number": "02121111111",
       "user": "samira-regalado@gmail.com"
     },
-    {
-      "id": "3c19",
-      "name": "Samira Regalado",
-      "number": "04241350111",
-      "user": "samira-regalado@gmail.com"
-    },
-    {
-      "id": "fef0",
-      "name": "Shaddai Ramos",
-      "number": "04241382231",
-      "user": "shaddai@gmail.com"
-    }
   ]
 }
